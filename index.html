@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io (2)/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io (2)/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io (2)/favicon-16x16.png">
+  <title>Kalyan Battu</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">Welcome to My profile</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="home" class="section">
+    <div class="section__container">
+      <div class="content">
+        <p class="subtitle">HELLO</p>
+        <h1 class="title">
+          I'm <span>Kalyan</span>
+        </h1>
+        <p class="description">
+          Welcome to my portfolio! I'm Kalyan Kumar Battu, am proficient in J2SE, J2EE, SQL,
+          HTML, and CSS programming. Recognized for my problem-solving skills and clear communication, I am actively
+          seeking an entry-level Software Development role to apply and expand my expertise.
+        </p>
+        <!-- <div class="action__btns">
+          <button class="hire__me">Hire Me</button>
+        </div> -->
+        <div class="container">
+          <!-- Button to trigger the form -->
+          <button id="show-form-btn">Hire Me</button>
+      
+          <!-- Form -->
+          <div id="form-container" style="display:none;">
+              <h2>Enter your email to download my resume</h2>
+              <form id="email-form" action="#" method="POST">
+                  <label for="email">Email:</label><br>
+                  <input type="email" id="email" name="email" required><br>
+                  <button type="submit">Download Resume</button>
+              </form>
+          </div>
+      
+          <!-- Resume download link -->
+          <div class="download-link" id="resume-download">
+              <p>Thank you for your interest! Click below to download my resume:</p>
+              <a href="Resume.pdf" download>Download Resume</a>
+          </div>
+      </div>
+      
+      <script>
+          // Function to show the form when button is clicked
+          document.getElementById('show-form-btn').addEventListener('click', function() {
+              document.getElementById('form-container').style.display = 'block';
+          });
+      
+          // Show the resume download link after form submission
+          document.getElementById('email-form').addEventListener('submit', function(event) {
+              event.preventDefault(); // Prevent form submission
+              document.getElementById('resume-download').classList.add('active');
+          });
+      </script>
+      </div>
+      <div class="image">
+        <img src="myImg.jpg" alt="profile" />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="allSection_about">
+      <div id="about" class="about">
+        <p>I possess a Bachelor's degree in Electrical and Electronics Engineering and am proficient in J2SE, J2EE, SQL,
+          HTML, and CSS programming. Recognized for my problem-solving skills and clear communication, I am actively
+          seeking an entry-level Software Development role to apply and expand my expertise. With a strong foundation in
+          software engineering principles and a passion for collaborative work, I am eager to contribute to innovative
+          projects and further develop my skills in a dynamic environment.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="allSection">
+      <div id="skills">
+        <div>
+          <h4>Technical Skills</h4>
+        </div>
+        <div class="TechSkills">
+          <h5>Core Java:</h5>
+          <p>Proficient in Java programming language, with a strong understanding of core concepts and object-oriented
+            principles.</p>
+
+        </div>
+        <div class="TechSkills">
+          <h5>SQL / PL/SQL:</h5>
+          <p> Experienced in database management with SQL and PL/SQL, capable of designing and optimizing database
+            structures and executing queries.</p>
+        </div>
+        <div class="TechSkills">
+          <h5>Web Development:</h5>
+          <p>Skilled in front-end technologies including HTML, CSS, and JavaScript, with a knack for creating dynamic
+            and
+            responsive web interfaces.</p>
+        </div>
+        <div class="TechSkills">
+          <h5>Advanced Java:</h5>
+          <p>Well-versed in Advanced Java concepts such as JDBC, Servlets, and JSP, enabling the development of robust
+            and
+            scalable web applications</p>
+        </div>
+        <div class="TechSkills">
+          <h5>C Language: </h5>
+          <p>Knowledgeable in C programming language, capable of implementing algorithms and solving computational
+            problems
+            efficiently.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="allSection">
+      <div id="projects">
+        <div class="p2">
+        <header>
+          <h1>IoT-Based Battery Management System</h1>
+        </header>
+        <main>
+          <section>
+            <h2>Overview:</h2>
+            <p>The IoT-based Battery Management System (BMS) for electric vehicles represents a cutting-edge solution designed to optimize the performance, longevity, and safety of battery packs in electric vehicles. Leveraging the power of Internet of Things (IoT) technology, this system provides real-time monitoring, analysis, and control of battery parameters, ensuring efficient operation and extending the lifespan of the battery pack.</p>
+          </section>
+          <section>
+            <h2>Key Features:</h2>
+            <ul>
+              <li>Real-time Monitoring</li>
+              <li>Remote Accessibility</li>
+              <li>Predictive Maintenance</li>
+              <li>Optimized Charging</li>
+              <li>Safety Enhancements</li>
+              <li>Data Analytics and Insights</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Benefits:</h2>
+            <ul>
+              <li>Extended Battery Lifespan</li>
+              <li>Enhanced Efficiency</li>
+              <li>Safety Assurance</li>
+              <li>Environmental Sustainability</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Conclusion:</h2>
+            <p>The IoT-based Battery Management System represents a significant advancement in the field of electric vehicle technology, offering enhanced efficiency, safety, and longevity for battery packs. By leveraging IoT connectivity and intelligent algorithms, this system empowers electric vehicle owners and manufacturers with the tools to optimize performance, reduce costs, and promote sustainable transportation solutions.</p>
+          </section>
+        </main>
+      </div>
+        <div class="p2">
+          <header>
+            <h1>IoT-Based Smart Agriculture</h1>
+          </header>
+          <main>
+            <section>
+              <h2>Overview:</h2>
+              <p>The IoT-based Smart Agriculture system revolutionizes traditional farming practices by integrating cutting-edge technology to improve productivity, efficiency, and sustainability in agricultural operations. By leveraging Internet of Things (IoT) devices and data analytics, this system enables farmers to make informed decisions, optimize resource utilization, and enhance crop yields while minimizing environmental impact.</p>
+            </section>
+            <section>
+              <h2>Key Features:</h2>
+              <ul>
+                <li>Remote Monitoring</li>
+                <li>Precision Irrigation</li>
+                <li>Crop Health Monitoring</li>
+                <li>Livestock Management</li>
+                <li>Environmental Monitoring</li>
+                <li>Data Analytics and Insights</li>
+              </ul>
+            </section>
+            <section>
+              <h2>Benefits:</h2>
+              <ul>
+                <li>Increased Productivity</li>
+                <li>Resource Efficiency</li>
+                <li>Risk Mitigation</li>
+                <li>Improved Livestock Welfare</li>
+              </ul>
+            </section>
+            <section>
+              <h2>Conclusion:</h2>
+              <p>The IoT-based Smart Agriculture system represents a paradigm shift in modern farming practices, empowering farmers with real-time data, actionable insights, and automated control to optimize farm operations and achieve sustainable agricultural growth. By harnessing the power of IoT technology, this system paves the way for a more efficient, productive, and environmentally responsible agriculture industry.</p>
+            </section>
+          </main>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div id="contact" class="contact">
+    <footer>
+      <ul>
+        <li><a href="https://github.com/Kalyan8121">GitHub</a></li>
+        <li><a
+            href="https://www.linkedin.com/in/kalyan-kumar-battu-a62b30207/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B0OslOUzXQPmx09dNvyqHfw%3D%3D">LinkedIn</a>
+        </li>
+        <li><a href="#instagram">Instagram</a></li>
+        <li><a href="mailto:kalyankumarbattu88@gmail.com" type="Email">Mail</a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script>
+    // Smooth scrolling effect for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
