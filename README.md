@@ -16,6 +16,6 @@ This repository contains the code for my personal portfolio website. It was crea
 ## Contributing
 + This project is a task for a virtual internship and is not open to contributions at this time.
 
-Acknowledgements
-Bharat Intern for providing the task opportunity
-Preview Image ![Click Here](https://github.com/Kalyan8121/Portfolio/blob/main/Preview.png)
+### Acknowledgements
++ Bharat Intern for providing the task opportunity
+Preview Image [Click Here](https://github.com/Kalyan8121/Portfolio/blob/main/Preview.png)
